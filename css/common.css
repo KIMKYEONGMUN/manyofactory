@@ -1,0 +1,269 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Bold.eot');
+    src: url('font/Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Bold.woff2') format('woff2'),
+        url('font/Pretendard-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-ExtraBold.eot');
+    src: url('font/Pretendard-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-ExtraBold.woff2') format('woff2'),
+        url('font/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Black.eot');
+    src: url('font/Pretendard-Black.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Black.woff2') format('woff2'),
+        url('font/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-ExtraLight.eot');
+    src: url('font/Pretendard-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-ExtraLight.woff2') format('woff2'),
+        url('font/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Light.eot');
+    src: url('font/Pretendard-Light.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Light.woff2') format('woff2'),
+        url('font/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Medium.eot');
+    src: url('font/Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Medium.woff2') format('woff2'),
+        url('font/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Regular.eot');
+    src: url('font/Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Regular.woff2') format('woff2'),
+        url('font/Pretendard-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-SemiBold.eot');
+    src: url('font/Pretendard-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-SemiBold.woff2') format('woff2'),
+        url('font/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('font/Pretendard-Thin.eot');
+    src: url('font/Pretendard-Thin.eot?#iefix') format('embedded-opentype'),
+        url('font/Pretendard-Thin.woff2') format('woff2'),
+        url('font/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family: 'Pretendard';
+    word-break: keep-all;
+}
+
+h3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.inner {
+    max-width: 1600px;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+}
+.mobile {
+    display: none;
+}
+
+/* header */
+header {
+    height: 100px;
+}
+header .inner {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .inner h1 {
+    height: 40px;
+}
+header .inner h1 img {
+    height: 40px;
+}
+header .inner .pc .gnb .depth01 {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+}
+header .inner .pc .gnb .depth01 > a {
+    display: block;
+    line-height: 100px;
+    padding: 0 30px;
+}
+header .inner .pc .gnb .depth01 > a:hover {
+    color: #BB181D;
+}
+header .inner .pc .gnb .depth01 .depth02 {
+    width: 150px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    text-align: center;
+    display: none;
+}
+/* header .inner .pc .gnb .depth01:hover .depth02 {
+    display: block;
+} */
+header .inner .pc .gnb .depth01 .depth02 li {
+    padding: 15px;
+}
+header .inner .pc .gnb .depth01 .depth02 li a:hover {
+    color: #BB181D;
+}
+
+/* footer */
+footer {
+    padding: 20px 0;
+    background-color: #BB181D;
+    color: #fff;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .mobile.menu_open {
+        cursor: pointer;
+    }
+    #wrap {
+        position: relative;
+    }
+    #wrap.on::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(6px);
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .mobile_gnb {
+        width: 80%;
+        height: 100vh;
+        background-color: #fff;
+        box-shadow: -2px 0 2px rgba(0, 0, 0, 0.4);
+        padding: 30px;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        overflow: scroll;
+        display: none;
+    }
+    .mobile_gnb::-webkit-scrollbar {
+        display: none;
+    }
+    .mobile_gnb.on {
+        display: block;
+    }
+    .mobile_gnb .menu_close {
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .mobile_gnb .gnb {
+        width: 70%;
+        margin: 40px auto;
+    }
+    .mobile_gnb .gnb .depth01 {
+        background-color: #BB181D;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .mobile_gnb .gnb .depth01 a {
+        display: block;
+        padding: 20px 0;
+    }
+    .mobile_gnb .gnb .depth01 .depth02 {
+        background-color: #fff;
+        color: #BB181D;
+        display: none;
+    }
+    .mobile_gnb .gnb .depth01 .depth02 li {
+        border-left: 1px solid #BB181D;
+        border-right: 1px solid #BB181D;
+        border-bottom: 1px dotted #BB181D;
+    }
+    .mobile_gnb .gnb .depth01 .depth02 li:last-child {
+        border-bottom: 1px solid #BB181D;
+    }
+}/* 1024px */
+
+@media screen and (max-width: 767px) {
+    /* header */
+    header {
+        height: 70px;
+    }
+    header .inner h1 {
+        height: 25px;
+    }
+    header .inner h1 img {
+        height: 25px;
+    }
+}/* 767px */
